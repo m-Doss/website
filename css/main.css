@@ -1,0 +1,94 @@
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.title {
+    font-size: 25px;
+}
+
+/* Main */
+.main {
+    padding: 12px;
+}
+
+
+/* About me */
+.about {
+    margin-bottom: 100px;
+}
+
+
+
+/* Image */
+
+.image {
+    border-radius: 0.25em;
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+    .image img {
+        border-radius: 0.25em;
+        display: block;
+    }
+
+    .image.left, .image.right {
+        max-width: 18%;
+    }
+
+        .image.left img, .image.right img {
+            width: 100%;
+        }
+
+    .image.left {
+        float: left;
+        margin: 0 1.5em 1em 0;
+        top: 0.25em;
+    }
+
+    .image.right {
+        float: right;
+        margin: 0 0 1em 1.5em;
+        top: 0.25em;
+    }
+
+    .image.fit {
+        display: block;
+        margin: 0 0 2em 0;
+        width: 100%;
+    }
+
+        .image.fit img {
+            width: 100%;
+        }
+
+    .image.main {
+        display: block;
+        margin: 0 0 3em 0;
+        width: 100%;
+    }
+
+        .image.main img {
+            width: 100%;
+        }
+
+
+
+
+
