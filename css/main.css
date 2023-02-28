@@ -126,16 +126,17 @@
 table {
     margin: 0 0 2em 0;
     width: 100%;
+    
 }
 
     table tbody tr {
-        border: solid 1px rgba(255, 255, 255, 0.403);
+        border: solid 1px rgba(255, 255, 255, 0.234);
         border-left: 0;
         border-right: 0;
     }
 
         table tbody tr:nth-child(2n + 1) {
-            background-color: rgba(255, 255, 255, 0.05);
+            background-color: rgba(255, 255, 255, 0.114);
         }
 
     table td {
@@ -151,35 +152,6 @@ table {
     }
 
     table thead {
-        border-bottom: solid 2px rgba(255, 255, 255, 0.15);
+        border-bottom: solid 2px rgba(255, 255, 255, 0.185);
     }
-
-    table tfoot {
-        border-top: solid 2px rgba(255, 255, 255, 0.15);
-    }
-
-    table.alt {
-        border-collapse: separate;
-    }
-
-        table.alt tbody tr td {
-            border: solid 1px rgba(174, 29, 29, 0.15);
-            border-left-width: 0;
-            border-top-width: 0;
-        }
-
-            table.alt tbody tr td:first-child {
-                border-left-width: 1px;
-            }
-
-        table.alt tbody tr:first-child td {
-            border-top-width: 1px;
-        }
-
-        table.alt thead {
-            border-bottom: 0;
-        }
-
-        table.alt tfoot {
-            border-top: 0;
-        }
+    
