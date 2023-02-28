@@ -4,25 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <title>My Projects Page</title>
 </head>
 
 
 <body>
-		<!-- Header -->
+    <!-- Header -->
+    <div class="header">
         <header id="header">
-            <a href="index.html" class="title">Hyperspace</a>
+            <a href="index.html" class="title">malek aldoss</a>
             <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <!-- <li><a href="elements.html"  class="active">Elements</a></li> -->
-                </ul>
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
             </nav>
         </header>
+    </div>
 
-        <h1>About Me</h1>
+    <!-- Main -->
+    <div class="main">
+        <h2>Hi! I am malek</h2>
+        <p>
+        <b>Hi! I am malek</b><br />
+        An aspiring Data Engineer with a passion for serving complex data to
+        downstream business consumers.
+        </p>
+        <span class="image1"><img src="images/FlaskProject.png" alt="" /></span>
+
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Method</th>
+                        <th>Endpoint</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GET</td>
+                        <td>/store</td>
+                        <td>Get a list of all stores.</td>
+                    </tr>
+                    <tr>
+                        <td>POST</td>
+                        <td>/store</td>
+                        <td>Create a store.</td>
+                    </tr>
+                    <tr>
+                        <td>GET</td>
+                        <td>/store/{id}</td>
+                        <td>Get a single store, given its unique id.</td>
+                    </tr>
+                    <tr>
+                        <td>DELETE</td>
+                        <td>/store/{id}</td>
+                        <td>Delete a store, given its unique id.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
 
 </body>
 </html>
